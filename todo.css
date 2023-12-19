@@ -1,0 +1,113 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg');
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+   text-align: right;
+    margin-right: 35%
+}
+
+/* Style for the main container */
+.inputContainer {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   margin-right: 10%;
+   background-color: #b8c0ff;
+}
+
+/* Style for the text input */
+.textBox {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/* Style for the Save button */
+.saveButton {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    background-color: #45a049;
+}
+
+/* Style for the tasks container */
+.taskContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+/* Style for the tasks heading */
+.tasksHeading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for individual tasks */
+.task {
+    width: 70vh;
+    margin-bottom: 8px;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #ffc2d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task input {
+margin-right: 10px;
+}
+
+.task .taskButton {
+    margin-right: 5px;
+}
+
+/* 
+.strike {
+    text-decoration: line-through;
+} */
+
+
+/* Strike-through effect for completed tasks */
+.task .strike {
+    text-decoration: line-through;
+  }
+  
+  /* Task buttons style */
+  .taskButton {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #c9184a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .taskButton:hover {
+    background-color: #800f2f;
+  }
